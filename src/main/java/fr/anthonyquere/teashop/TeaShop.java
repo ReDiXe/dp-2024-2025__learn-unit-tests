@@ -33,4 +33,14 @@ public class TeaShop {
         }
         this.waterTemperature = celsius;
     }
+
+    // Getters et Setters
+    public Map<String, Tea> getAvailableTeas() {
+        return new HashMap<>(availableTeas);
+    }
+
+    public int getWaterTemperature() {
+        return waterTemperature;
+    }
+
 }

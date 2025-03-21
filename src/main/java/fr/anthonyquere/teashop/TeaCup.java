@@ -34,4 +34,38 @@ public class TeaCup {
     private int getCurrentTimeInSeconds() {
         return (int) (System.currentTimeMillis() / 1000);
     }
+
+    // Getters et Setters POUR LES TESTS
+
+    public int getCurrentTemperatureCelsius() {
+        return currentTemperatureCelsius;
+    }
+
+    public void setCurrentTemperatureCelsius(int currentTemperatureCelsius) {
+        this.currentTemperatureCelsius = currentTemperatureCelsius;
+    }
+
+    public Tea getTea() {
+        return tea;
+    }
+
+    public void setTea(Tea tea) {
+        this.tea = tea;
+    }
+
+    public boolean isEmpty() {
+        return isEmpty;
+    }
+
+    public void setEmpty(boolean isEmpty) {
+        this.isEmpty = isEmpty;
+    }
+
+    public int getSteepingStartTime() {
+        return steepingStartTime;
+    }
+
+    public void setSteepingStartTime(int steepingStartTime) {
+        this.steepingStartTime = steepingStartTime;
+    }
 }
